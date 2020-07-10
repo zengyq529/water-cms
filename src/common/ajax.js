@@ -6,7 +6,7 @@ import { Notification } from 'element-ui';
  
 const HTTP_TIMEOUT = 30000;
 const apiHost = (url) => {
-  return '' ;// url.indexOf('/xiaoyue-operation/') > -1 ? '//gbot.oa.com' : ''
+  return '' ; 
 };
 
 function showErrMsg(msg) {
